@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - Decan Engineering</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+<!-- ================= HEADER ================= -->
+<!-- ================= HEADER ================= -->
+<header id="header" class="bg-cyan-700 text-white sticky top-0 z-50 transition-all duration-300">
+  <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+    
+    <!-- Logo + Mobile Toggle -->
+    <div class="flex items-center space-x-3">
+      <button class="md:hidden text-2xl" onclick="toggleMenu()">☰</button>
+      <a href="home.html" class="flex items-center space-x-2">
+        <img src="images/Logo.png" class="h-12 bg-white p-1 rounded">
+        <span class="font-bold text-xl">Decan Engineering</span>
+      </a>
+    </div>
+
+    <!-- Desktop Navigation -->
+    <nav class="hidden md:flex space-x-8 font-medium">
+      <a href="home.html" class="hover:text-cyan-300 transition">Home</a>
+      <a href="about.html" class="hover:text-cyan-300 transition">About Us</a>
+      <a href="services.html" class="hover:text-cyan-300 transition">Manufacturing & Services</a>
+      <a href="contact.html" class="hover:text-cyan-300 transition">Contact Us</a>
+    </nav>
+
+    <!-- CTA -->
+    <div class="hidden md:block">
+      <a href="request.html"
+         class="bg-white text-cyan-900 font-bold px-6 py-2 rounded-md hover:bg-cyan-50 transition">
+        Request a Quote
+      </a>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <nav id="mobile-menu" class="hidden md:hidden bg-cyan-800 px-6 py-6 space-y-4">
+    <a href="home.html" class="block">Home</a>
+    <a href="about.html" class="block">About Us</a>
+    <a href="services.html" class="block">Manufacturing & Services</a>
+    <a href="contact.html" class="block">Contact Us</a>
+    <a href="request.html"
+       class="block bg-white text-cyan-900 font-bold px-4 py-3 rounded-md text-center">
+      Request Quote
+    </a>
+  </nav>
+</header>
+
+
+
+<!-- Contact Section -->
+<section class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12">
+  <!-- Left: Contact Info -->
+  <div>
+    <h2 class="text-3xl font-bold text-cyan-900 mb-4">Get in Touch</h2>
+    <p class="text-gray-700 mb-6">
+      We’d love to hear from you. Reach out to us for any queries, partnerships, or general information.
+    </p>
+    <div class="space-y-4">
+      <p><strong>📍 Address:<br>
+        Decan Engineering<br>
+         #-2 Rose warehouse , sec-70 -IMT Faridabad-121004
+         </strong>
+      </p>
+      <p><strong>📞 Phone:<br>  <a href="tel:+916202908394" class="hover:text-cyan-400">+91‑6202908394</a></strong>
+        
+      </p>
+      <p><strong>✉️ Email:<br><a href="mailto:info.decanengg@gmail.com" class="hover:text-cyan-400">info.decanengg@gmail.com</a></strong>
+      </p>
+    </div>
+    <div class="mt-6">
+      <a href="request.html" 
+         class="inline-block bg-cyan-700 hover:bg-cyan-900 text-white px-6 py-3 rounded-lg font-medium">
+        Request a Quote
+      </a>
+    </div>
+  </div>
+
+  <!-- Right: Contact Form -->
+  <div class="bg-white shadow-lg rounded-xl p-6">
+    <h3 class="text-xl font-semibold mb-4 text-gray-800">Quick Contact Form</h3>
+    <!-- ✅ Replace with your actual Zoho Form embed link -->
+    <iframe 
+      src="https://forms.zohopublic.in/infodecanengggm1/form/ContactUs/formperma/gVmV2CydPGwZOx8yTmmL9mG4phEhMRxETXNCc_q7zUw" 
+      frameborder="0" 
+      style="width:100%; height:400px; border:none; border-radius:8px;">
+    </iframe>
+  </div>
+</section>
+<footer class="bg-cyan-900 text-gray-300 py-16 px-6 mt-12">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left">
+
+    <div>
+      <h3 class="text-white text-lg font-bold mb-4">Manufacturing Facility</h3>
+      <p>
+        Plot No. 2, Rose Warehouse,<br>
+        Sector-70, IMT Faridabad,<br>
+        Haryana – 121004
+      </p>
+      <p class="mt-3">
+        Email:
+        <a href="mailto:info.decanengg@gmail.com" class="text-cyan-400 hover:underline">
+          info.decanengg@gmail.com
+        </a><br>
+        Phone:
+        <a href="tel:+916202908394" class="text-cyan-400 hover:underline">
+          +91 62029 08394
+        </a>
+      </p>
+    </div>
+
+    <div class="flex flex-col items-center">
+      <img src="images/Logo.png" class="h-16 bg-white p-2 rounded mb-4">
+      <p class="text-sm italic max-w-xs text-center">
+        Precision-engineered process and skid-mounted solutions.
+      </p>
+    </div>
+
+    <div>
+      <h3 class="text-white text-lg font-bold mb-4">Quick Links</h3>
+      <ul class="space-y-2">
+        <li><a href="home.html" class="hover:text-white">Home</a></li>
+        <li><a href="about.html" class="hover:text-white">About Us</a></li>
+        <li><a href="services.html" class="hover:text-white">Manufacturing & Services</a></li>
+        <li><a href="contact.html" class="hover:text-white">Contact Us</a></li>
+        <li>
+          <a href="request.html" class="text-cyan-400 font-bold hover:text-white">
+            Request a Quote
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="mt-12 pt-6 border-t border-cyan-800 text-center text-sm">
+    © 2026 Decan Engineering. All rights reserved.
+  </div>
+</footer>
+
+  
+
+  <script>
+    // Mobile menu toggle
+    function toggleMenu() {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    }
+
+    // Header scroll effect
+    window.addEventListener('scroll', function () {
+      const header = document.getElementById('header');
+      if (window.scrollY > 50) {
+        header.classList.remove('bg-cyan-700', 'text-white');
+        header.classList.add('bg-white', 'text-gray-900', 'shadow-md');
+      } else {
+        header.classList.remove('bg-white', 'text-gray-900', 'shadow-md');
+        header.classList.add('bg-cyan-700', 'text-white');
+      }
+    });
+  </script>
+</body>
+</html>
